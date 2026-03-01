@@ -1,0 +1,17 @@
+html {
+  height: 100%;  /* базовая высота */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* минимум на весь экран */
+  margin: 0;
+  padding-top: 84px;  /* отступ под высоту хедера (48px + 18px*2 padding) */
+  background: #000;   /* твой фон страницы, если нужно */
+}
+
+main {
+  flex: 1;            /* main растягивается и толкает футер вниз */
+  padding: 20px;      /* отступы внутри main */
+}
