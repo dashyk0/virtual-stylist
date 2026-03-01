@@ -1,5 +1,5 @@
 .footer {
-  background: url('../assets/images/fon.png') center / cover no-repeat !important;
+  background: url('/virtual-stylist/assets/images/fon.png') center / cover no-repeat !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,4 +110,5 @@
   .footer__logo {
     font-size: 36px;
   }
+
 }
